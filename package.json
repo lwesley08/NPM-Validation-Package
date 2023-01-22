@@ -1,0 +1,17 @@
+{
+  "name": "test-validation",
+  "version": "1.0.25",
+  "description": "",
+  "main": "dist/index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^13.1.6",
+    "typescript": "^3.7.4"
+  },
+  "scripts": {
+    "compile-typescript": "tsc --outDir dist --declaration"
+  },
+  "types": "dist/index.d.ts",
+  "prepublish": "tsc --outDir dist --declaration"
+}
